@@ -2,13 +2,21 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiFilter;
+use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\DeviceRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass=DeviceRepository::class)
+ * @ApiResource()
+ * @ApiFilter(SearchFilter::class)
+ * @ApiFilter(OrderFilter::class)
  */
 class Device
 {
@@ -21,16 +29,19 @@ class Device
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank(message="Un nom d'appareil est obligatoire")
      */
     private $name;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank(message="Une référence est obligatoire")
      */
     private $reference;
 
     /**
      * @ORM\Column(type="text")
+     * @Assert\NotBlank(message="Une image de l'appareil est obligatoire")
      */
     private $illustration;
 
