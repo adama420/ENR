@@ -16,12 +16,15 @@ const DevicesPage = props => {
     const handleSearch = event => {
         const value = event.currentTarget.value;
         setSearch(value);
+        console.log(devices);
+
     };
 
     const filterdDevices = devices.filter(
         d =>
             d.name.toLowerCase().includes(search.toLowerCase()) ||
             d.reference.includes(search)
+
     );
 
 
@@ -33,7 +36,9 @@ const DevicesPage = props => {
                     <input type="text" onChange={handleSearch} value={search} className="form-control" placeholder="Rechecher ..."/>
                 </div>
                 <div className="row">
+
                     {filterdDevices.map(device =>
+
                         <div key={device.id} className="card col-4">
                             <img className="card-img-top" url={device.image} alt="Card image cap"/>
                             <div className="card-body">
@@ -41,14 +46,15 @@ const DevicesPage = props => {
                                 <p className="card-text">
                                     ref: {device.reference}
                                 </p>
-                                <a href="#" className="btn btn-primary">Go somewhere</a>
                             </div>
-                        </div>)}
+                        </div>
+                    )}
                 </div>
             </div>
 
 
         </>
+
     );
 
 };
