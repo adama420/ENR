@@ -20,6 +20,11 @@ const DevicesPage = props => {
 
     };
 
+    const handleTransfert = event => {
+        const data = event.currentTarget.value;
+        console.log(data);
+    }
+
     const filterdDevices = devices.filter(
         d =>
             d.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -46,6 +51,8 @@ const DevicesPage = props => {
                                 <p className="card-text">
                                     ref: {device.reference}
                                 </p>
+                                <button onClick={handleTransfert} value={device.id}><a href={"#/alarmes/"+ device.id}>Alarmes</a></button>
+                                <button onClick={handleTransfert} value={device.id}><a href={"#/maintenances/"+ device.id}>Maintenance</a></button>
                             </div>
                         </div>
                     )}

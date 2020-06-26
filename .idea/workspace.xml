@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a1b8e-f822-4c1a-b238-72ae5650e659" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/pages/AlarmsPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/pages/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/pages/MaintenancesPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/AlarmsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/AlarmsPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/pages/DevicesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/DevicesPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592824279205</updated>
-      <workItem from="1592824280406" duration="30028000" />
+      <workItem from="1592824280406" duration="39210000" />
     </task>
     <servers />
   </component>
@@ -199,9 +198,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="415" y="208" width="610" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1593096863400" />
-    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1593094802700">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="24" y="214" width="670" height="659" key="search.everywhere.popup" timestamp="1593164157051">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="24" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1593094802700" />
+    <state x="24" y="214" width="670" height="659" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1593164157051" />
   </component>
 </project>
