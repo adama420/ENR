@@ -24,9 +24,15 @@ security:
                 success_handler:          lexik_jwt_authentication.handler.authentication_success
                 failure_handler:          lexik_jwt_authentication.handler.authentication_failure
         main:
-            anonymous: true
-            lazy: true
-            provider: app_user_provider
+            anonymous: lazy
+            form_login:
+                login_path: login
+                check_path: login
+                default_target_path: admin
+            logout:
+                path: app_logout
+                target: app
+
 
             # activate different ways to authenticate
             # https://symfony.com/doc/current/security.html#firewalls-authentication
@@ -41,4 +47,5 @@ security:
          - { path: ^/api/alarm, roles: IS_AUTHENTICATED_FULLY, methods: [POST, DELETE, PUT, PATCH] }
          - { path: ^/api/maintenance, roles: IS_AUTHENTICATED_FULLY, methods: [POST, DELETE, PUT, PATCH] }
          - { path: ^/api/notice, roles: IS_AUTHENTICATED_FULLY, methods: [POST, DELETE, PUT, PATCH] }
+         - { path: ^/admin, roles: IS_AUTHENTICATED_FULLY}
         # - { path: ^/profile, roles: ROLE_USER }

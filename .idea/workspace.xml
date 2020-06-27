@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a1b8e-f822-4c1a-b238-72ae5650e659" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/flammm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flammm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/pages/AlarmsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/AlarmsPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/pages/DevicesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/DevicesPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/pages/MaintenancesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/MaintenancesPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Alarm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Alarm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Maintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Maintenance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Notice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -151,6 +150,9 @@
       <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
       <path value="$PROJECT_DIR$/vendor/namshi/jose" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1dfly5nq1eVi44Ep32jZ1LpyuDg" />
@@ -179,6 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592824279205</updated>
       <workItem from="1592824280406" duration="47359000" />
+      <workItem from="1593271821048" duration="4906000" />
     </task>
     <servers />
   </component>
@@ -198,10 +201,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1593008548415" />
-    <state x="415" y="208" width="610" height="472" key="find.popup" timestamp="1593096863400">
+    <state x="415" y="208" width="610" height="472" key="find.popup" timestamp="1593271917136">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="415" y="208" width="610" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1593096863400" />
+    <state x="415" y="208" width="610" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1593271917136" />
     <state x="24" y="214" width="670" height="659" key="search.everywhere.popup" timestamp="1593164157051">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
