@@ -7,22 +7,27 @@ const MaintenancesPage = props => {
 
     const url = window.location.href;
     const modele = url.substring(url.lastIndexOf('/') + 1);
-    console.log(modele);
+
 
 
     const [maintenances, setMaintenances] = useState([]);
+
     useEffect(() => {
 
 
-        axios.get('http://localhost:8000/api/devices/', {
+        axios.get('http://localhost:8000/api/maintenances?device=', {
             params: {
-                id: modele
+                device: modele
             }
         })
-            .then(response => response.data['hydra:member'][0].maintenances)
+            .then(response => response.data['hydra:member'])
             .then(data => setMaintenances(data))
             .catch(error => console.log(error.response));
     },[]);
+
+console.log(maintenances);
+
+
 
 
     return (
@@ -34,7 +39,7 @@ const MaintenancesPage = props => {
                     <div className="card col-4">
                         <div className="card-body">
                             <p className="card-text">
-                                {maintenance}
+                                {maintenance.nameStep}
                             </p>
                         </div>
                     </div>

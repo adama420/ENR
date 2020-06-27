@@ -13,16 +13,15 @@ const AlarmsPage = props => {
     useEffect(() => {
 
 
-        axios.get('http://localhost:8000/api/devices/', {
+        axios.get('http://localhost:8000/api/alarms?device=', {
             params: {
-                id: modele
+                device: modele
             }
         })
-            .then(response => response.data['hydra:member'][0].alarms)
+            .then(response => response.data['hydra:member'])
             .then(data => setAlarms(data))
             .catch(error => console.log(error.response));
     },[]);
-
 
     return (
         <>
@@ -32,7 +31,7 @@ const AlarmsPage = props => {
                 <div className="card col-4">
                    <div className="card-body">
                        <p className="card-text">
-                           {alarm}
+                           {alarm.subtitle}
                        </p>
                    </div>
                 </div>
