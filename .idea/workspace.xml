@@ -8,7 +8,14 @@
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AlarmCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AlarmCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DeviceCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DeviceCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/MaintenanceCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/MaintenanceCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/NoticeCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/NoticeCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Alarm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Alarm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Device.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Device.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Maintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Maintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Notice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,6 +160,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
       <path value="$PROJECT_DIR$/vendor/symfony/uid" />
       <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1dfly5nq1eVi44Ep32jZ1LpyuDg" />
@@ -181,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592824279205</updated>
       <workItem from="1592824280406" duration="47359000" />
-      <workItem from="1593271821048" duration="4906000" />
+      <workItem from="1593271821048" duration="12625000" />
     </task>
     <servers />
   </component>
@@ -201,9 +210,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1593008548415" />
-    <state x="415" y="208" width="610" height="472" key="find.popup" timestamp="1593271917136">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="415" y="190" width="610" height="485" key="find.popup" timestamp="1593343414670">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="415" y="190" width="610" height="485" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1593343414670" />
     <state x="415" y="208" width="610" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1593271917136" />
     <state x="24" y="214" width="670" height="659" key="search.everywhere.popup" timestamp="1593164157051">
       <screen x="0" y="23" width="1440" height="877" />

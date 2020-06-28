@@ -4,6 +4,10 @@ namespace App\Controller\Admin;
 
 use App\Entity\Device;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
 
 class DeviceCrudController extends AbstractCrudController
 {
@@ -12,14 +16,20 @@ class DeviceCrudController extends AbstractCrudController
         return Device::class;
     }
 
-    /*
+
     public function configureFields(string $pageName): iterable
     {
         return [
-            IdField::new('id'),
-            TextField::new('title'),
-            TextEditorField::new('description'),
+
+            TextField::new('name'),
+            TextField::new('reference'),
+            ImageField::new('illustration'),
+            TextField::new('image_name'),
+            AssociationField::new('alarms'),
+            AssociationField::new('maintenances'),
+            AssociationField::new('notice')
+
         ];
     }
-    */
+
 }

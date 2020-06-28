@@ -130,4 +130,9 @@ class Maintenance
 
         return $this;
     }
+
+    public function __toString()
+    {
+        return $this->name_step;
+    }
 }

@@ -61,4 +61,8 @@ class Notice
 
         return $this;
     }
+    public function __toString()
+    {
+        return $this->pdf_file;
+    }
 }

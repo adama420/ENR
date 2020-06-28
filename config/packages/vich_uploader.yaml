@@ -1,0 +1,20 @@
+vich_uploader:
+    db_driver: orm
+
+    mappings:
+        device_image:
+            uri_prefix: /images/devices
+            upload_destination: '%kernel.project_dir%/public/images/devices'
+            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
+        alarm_image:
+            uri_prefix: /images/alarms
+            upload_destination: '%kernel.project_dir%/public/images/alarms'
+            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
+        maintenance_image:
+            uri_prefix: /images/maintenances
+            upload_destination: '%kernel.project_dir%/public/images/maintenances'
+            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
+        device_notice:
+            uri_prefix: /pdf/devices
+            upload_destination: '%kernel.project_dir%/public/pdf/devices'
+            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
