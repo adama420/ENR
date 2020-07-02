@@ -23,8 +23,9 @@ class DeviceCrudController extends AbstractCrudController
 
             TextField::new('name'),
             TextField::new('reference'),
-            ImageField::new('illustration'),
+            TextField::new('illustration'),
             TextField::new('image_name'),
+            ImageField::new('image_file'),
             AssociationField::new('alarms'),
             AssociationField::new('maintenances'),
             AssociationField::new('notice')

@@ -7,6 +7,7 @@ import DevicesPage from "./pages/DevicesPage";
 import LoginPage from "./pages/LoginPage";
 import AlarmsPage from "./pages/AlarmsPage";
 import MaintenancesPage from "./pages/MaintenancesPage";
+import NoticesPage from "./pages/NoticesPage";
 
 
 
@@ -21,10 +22,11 @@ const App = () => {
     return (
         <HashRouter>
             <Navbar/>
-            <main className="container pt-5">
+            <main className="container-fluid pt-5">
                 <Switch>
                     <Route path="/alarmes" component={AlarmsPage} />
                     <Route path="/maintenances" component={MaintenancesPage} />
+                    <Route path="/notices" component={NoticesPage} />
                     <Route path="/login" component={LoginPage} />
                     <Route path="/appareils" component={DevicesPage} />
                     <Route path="/" component={HomePage} />

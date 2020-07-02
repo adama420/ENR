@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a1b8e-f822-4c1a-b238-72ae5650e659" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/flammm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flammm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/pages/NoticesPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/AlarmsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/AlarmsPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/DevicesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/DevicesPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pages/MaintenancesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/pages/MaintenancesPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/api_platform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AlarmCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AlarmCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DeviceCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DeviceCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/MaintenanceCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/MaintenanceCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/NoticeCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/NoticeCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Alarm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Alarm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Device.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Device.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Maintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Maintenance.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Notice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592824279205</updated>
       <workItem from="1592824280406" duration="47359000" />
-      <workItem from="1593271821048" duration="12625000" />
+      <workItem from="1593271821048" duration="40760000" />
     </task>
     <servers />
   </component>
@@ -210,15 +213,19 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1593008548415" />
-    <state x="415" y="190" width="610" height="485" key="find.popup" timestamp="1593343414670">
+    <state x="541" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593706973617">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="415" y="190" width="610" height="485" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1593343414670" />
-    <state x="415" y="208" width="610" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1593271917136" />
-    <state x="24" y="214" width="670" height="659" key="search.everywhere.popup" timestamp="1593164157051">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="541" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1593706973617" />
+    <state x="415" y="190" width="610" height="485" key="find.popup" timestamp="1593679650833">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1593094802700" />
+    <state x="415" y="190" width="610" height="485" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1593679650833" />
+    <state x="415" y="208" width="610" height="472" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1593271917136" />
+    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1593715278266">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1593715278266" />
     <state x="24" y="214" width="670" height="659" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1593164157051" />
   </component>
 </project>

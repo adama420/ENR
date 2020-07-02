@@ -16,8 +16,13 @@
     },
     "dependencies": {
         "axios": "^0.18.0",
+        "bootstrap": "^4.5.0",
+        "jquery": "^3.5.1",
         "react": "^16.8.6",
+        "react-bootstrap": "^1.0.1",
         "react-dom": "^16.8.6",
+        "react-pdf": "^4.1.0",
+        "react-render-markup": "^2.1.0",
         "react-router-dom": "^5.0.0"
     }
 }

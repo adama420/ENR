@@ -25,7 +25,9 @@ class MaintenanceCrudController extends AbstractCrudController
             TextField::new('name_step'),
             TextField::new('title'),
             TextEditorField::new('explanation'),
-            ImageField::new('image'),
+            TextField::new('image'),
+            TextField::new('image_name'),
+            ImageField::new('image_file'),
             TextEditorField::new('bullet_list'),
             AssociationField::new('device')
         ];

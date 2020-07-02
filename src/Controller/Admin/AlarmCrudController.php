@@ -21,11 +21,13 @@ class AlarmCrudController extends AbstractCrudController
     public function configureFields(string $pageName): iterable
     {
         return [
-            IdField::new('id'),
+
             TextField::new('title'),
             TextField::new('description'),
             TextField::new('slug'),
-            ImageField::new('image'),
+            TextField::new('image'),
+            TextField::new('image_name'),
+            ImageField::new('image_file'),
             TextEditorField::new('explanation'),
             TextField::new('subtitle'),
             TextEditorField::new('bullet_list'),

@@ -2,15 +2,11 @@ import React from 'react';
 
 const HomePage = (props) => {
     return (
-        <div className="jumbotron">
-            <h1 className="display-3">Hello, world!</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                attention to featured content or information.</p>
-            <hr className="my-4" />
-                <p>It uses utility classes for typography and spacing to space content out within the larger
-                    container.</p>
+        <div className="jumbotron text-center">
+            <h1 className="display-3">Assistant virtuel ENR Distribution</h1>
+            <p className="lead">Trouvez les procédures d'entretien, de l'aide à la résolution des mises en alarme ainsi que les notices PDF de tous vous appareils Edilkamin 24h/24 7j/7</p>
                 <p className="lead">
-                    <a className="btn btn-primary btn-lg" href="#/appareils" role="button">Learn more</a>
+                    <a className="btn btn-primary btn-lg" href="#/appareils" role="button">C'est parti !</a>
                 </p>
         </div>
     );

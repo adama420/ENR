@@ -35,23 +35,24 @@ const DevicesPage = props => {
     return (
         <>
             <div className="container">
-                <h1> Liste des Appareils </h1>
+                <h1 className="text-center">Les appareils Edilkamin </h1>
                 <div className="form-group">
-                    <input type="text" onChange={handleSearch} value={search} className="form-control" placeholder="Rechecher ..."/>
+                    <input type="text" onChange={handleSearch} value={search} className="form-control" placeholder="Chercher un appareil..."/>
                 </div>
                 <div className="row">
 
                     {filterdDevices.map(device =>
 
-                        <div key={device.id} className="card col-4">
-                            <img className="card-img-top" url={device.image} alt="Card image cap"/>
-                            <div className="card-body">
+                        <div key={device.id} className="card col-10 offset-1 col-md-4 offset-md-0">
+                            <img className="card-img-top" src={"images/devices/" + device.imageName}/>
+                            <div className="card-body text-center">
                                 <h4 className="card-title">{device.name}</h4>
                                 <p className="card-text">
                                     ref: {device.reference}
                                 </p>
-                                <button onClick={handleTransfert} value={device.id}><a href={"#/alarmes/"+ device.id}>Alarmes</a></button>
-                                <button onClick={handleTransfert} value={device.id}><a href={"#/maintenances/"+ device.id}>Maintenance</a></button>
+                                <div className="text-center"><button className="btn btn-success" onClick={handleTransfert} value={device.id}><a style={{textDecoration:'none', color: 'white'}} href={"#/alarmes/"+ device.id}>Alarmes</a></button></div>
+                                <div className="text-center"><button className="btn btn-success my-2" onClick={handleTransfert} value={device.id}><a style={{textDecoration:'none', color: 'white'}} href={"#/maintenances/"+ device.id}>Maintenance</a></button></div>
+                                <div className="text-center"><button className="btn btn-success" onClick={handleTransfert} value={device.id}><a style={{textDecoration:'none', color: 'white'}} href={"#/notices/"+ device.id}>Notice</a></button></div>
                             </div>
                         </div>
                     )}
