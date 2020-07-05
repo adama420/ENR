@@ -68,7 +68,7 @@ class Maintenance
     private $bullet_list;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Device::class, inversedBy="maintenances")
+     * @ORM\ManyToOne(targetEntity=Device::class, inversedBy="maintenances", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $device;

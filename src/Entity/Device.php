@@ -65,12 +65,12 @@ class Device
     private $imageName;
 
     /**
-     * @ORM\OneToMany(targetEntity=Alarm::class, mappedBy="device")
+     * @ORM\OneToMany(targetEntity=Alarm::class, mappedBy="device", cascade={"persist", "remove"})
      */
     private $alarms;
 
     /**
-     * @ORM\OneToMany(targetEntity=Maintenance::class, mappedBy="device")
+     * @ORM\OneToMany(targetEntity=Maintenance::class, mappedBy="device", cascade={"persist", "remove"})
      */
     private $maintenances;
 

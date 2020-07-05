@@ -30,7 +30,7 @@ class AppFixtures extends Fixture
 
         $user = new User();
         $user->setEmail('edilkaminenr@gmail.com')
-            ->setPassword($this->passwordEncoder->encodePassword($user, 'test'))
+            ->setPassword($this->passwordEncoder->encodePassword($user, 'Edilka62138'))
             ->setFirstName('ENR')
             ->setLastName('Admin')
             ->setRoles(['ROLE_ADMIN']);
