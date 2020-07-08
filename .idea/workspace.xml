@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a40a1b8e-f822-4c1a-b238-72ae5650e659" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Alarm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Alarm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Device.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Device.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Maintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Maintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/alarms/blade-boiteafumeesa-5ef8b6132581b196088144.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/alarms/imageh3-5f022bae08ccd260851063.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/alarms/imageh4-10-5f022d5083ece151812300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/alarms/imageh4-9-5f022ee5cad2a577060464.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592824279205</updated>
       <workItem from="1592824280406" duration="47359000" />
-      <workItem from="1593271821048" duration="42651000" />
+      <workItem from="1593271821048" duration="46752000" />
     </task>
     <servers />
   </component>
@@ -192,9 +198,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="477" y="314" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.877@0.23.1440.877" timestamp="1592839971837" />
-    <state x="475" y="376" key="NewPhpClassDialog" timestamp="1592840054505">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="475" y="362" key="NewPhpClassDialog" timestamp="1594043541253">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="475" y="362" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1594043541253" />
     <state x="475" y="376" key="NewPhpClassDialog/0.23.1440.877@0.23.1440.877" timestamp="1592840054505" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1593008548415">
       <screen x="0" y="23" width="1440" height="877" />
